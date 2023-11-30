@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    place-items:center;
+    background-image: url("img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#convert {
+    background-color: rgb(57, 167, 66);
+  }
+  #convert:hover {
+    background-color: rgb(61, 107, 156);
+  }
+  h1 {
+    font-family: sans-serif;
+    color: rgb(118, 39, 238)(102, 0, 255);
+  }
+  input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #5ae5f4;
+    font-family: cursive, sans-serif;
+  }
+  ::-webkit-input-placeholder {
+     color: #ccc;
+  }
+  :-moz-placeholder { 
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  
+     color: #ccc;  
+  }
+  :-ms-input-placeholder {  
+     color: #ccc;  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #545454;
+  }
